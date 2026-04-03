@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views">
-  <meta name="keywords" content="FLEG">
+        content="FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views">
+  <meta name="keywords" content="FF3R">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views</title>
+  <title>FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -50,30 +50,7 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div class="navbar-menu">
-        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-          <a class="navbar-item" href="https://fangzhou2000.github.io/">
-          <span class="icon">
-              <i class="fas fa-home"></i>
-          </span>
-          </a>
-    
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              More Research
-            </a>
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://fangzhou2000.github.io/projects/drivingforward/">
-                DrivingForward
-              </a>
-              <a class="navbar-item" href="https://fangzhou2000.github.io/projects/fleg/">
-                FLEG
-              </a>
-            </div>
-          </div>
-        </div>
-    
-      </div>
+      
     </nav>
 
     <section class="hero">
@@ -81,36 +58,44 @@
           <div class="container is-max-desktop">
             <div class="columns is-centered">
               <div class="column has-text-centered">
-                <h1 class="title is-1 publication-title">FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views</h1>
+                <h1 class="title is-1 publication-title">FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views</h1>
                 
-                <div class="is-size-4 has-text-weight-bold" style="color: #000000;">arXiv 2025</div>
+                <div class="is-size-4 has-text-weight-bold" style="color: #000000;">CVPR 2026 Findings</div>
                 <br>
 
                 <div class="is-size-5 publication-authors">
                   <span class="author-block">
-                    <a href="http://fangzhou2000.github.io/">Qijian Tian</a><sup>1</sup>,
+                    <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou</a><sup>1,2</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="https://tanxincs.github.io/">Xin Tan</a><sup>2,3</sup>,
+                    <a href="https://runwang123.github.io/">Run Wang</a><sup>2</sup>,
                   </span>
                   <span class="author-block">
-                    <a>Jiayu Ying</a><sup>2</sup>,
+                    <a href="https://people.computing.clemson.edu/~luofeng/">Feng Luo</a><sup>2</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="https://wangxuhongcn.github.io/">Xuhong Wang</a><sup>3</sup>,
+                    <a href="https://mpese.com/">Mert D. Pes&eacute;</a><sup>2</sup>,
+                  </span>
+                  <br>
+                  <span class="author-block">
+                    <a href="https://zhiwenfan.github.io/">Zhiwen Fan</a><sup>3</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=RN1QMPgAAAAJ&hl=zh-CN&oi=ao">Yuan Xie</a><sup>2</sup>,
+                    <a href="https://www.microsoft.com/applied-sciences/people/yiqi-zhong">Yiqi Zhong</a><sup>&dagger;</sup><sup>1</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="https://dmcv.sjtu.edu.cn/people/">Lizhuang Ma</a><sup>1</sup>
+                    <a href="https://siyuhuang.github.io/">Siyu Huang</a><sup>2</sup>,
                   </span>
+                  
                 </div>
       
                 <div class="is-size-5 publication-authors">
-                  <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University</span><br>
-                  <span class="author-block"><sup>2</sup>East China Normal University</span><br>
-                  <span class="author-block"><sup>3</sup>Shanghai Artificial Intelligence Laboratory</span>
+                  <span class="author-block"><sup>1</sup>Microsoft</span>,&nbsp;
+                  <span class="author-block"><sup>2</sup>Clemson University</span>,&nbsp;
+                  <span class="author-block"><sup>3</sup>Texas A&M University</span>
+                </div>
+                <div class="is-size-6 publication-authors">
+                  <span class="author-block"><sup>&dagger;</sup> Corresponding author</span>
                 </div>
       
                 <div class="column has-text-centered">
@@ -126,7 +111,7 @@
                       </a>
                     </span> -->
                     <span class="link-block">
-                      <a href="https://arxiv.org/abs/2512.17541"
+                      <a href=""
                          class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                             <i class="ai ai-arxiv"></i>
@@ -145,15 +130,15 @@
                       </a>
                     </span> -->
                     <!-- Code Link. -->
-                    <!-- <span class="link-block">
+                    <span class="link-block">
                       <a href=""
                          class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                             <i class="fab fa-github"></i>
                         </span>
-                        <span>Code</span>
+                        <span>Code (Coming Soon)</span>
                         </a>
-                    </span> -->
+                    </span>
                     <!-- Dataset Link. -->
                     <!-- <span class="link-block">
                       <a href=""
@@ -177,10 +162,7 @@
         <div class="container is-max-desktop">
         <!-- <div class="container is-fluid" style="width: 90%;"> -->
           <div class="hero-body">
-            <video id="teaser" autoplay muted loop playsinline height="100%">
-              <source src="./static/videos/demo.mp4"
-                      type="video/mp4">
-            </video>
+            <img id="teaser" src="./static/images/teaser.png" alt="Teaser image" style="width: 100%; height: auto;">
           </div>
         </div>
     </section>
@@ -192,8 +174,10 @@
             <div class="column is-four-fifths">
               <h2 class="title is-3">Abstract</h2>
               <div class="content has-text-justified">
-                We present FLEG, a feed-forward network that reconstructs language-embedded 3D Gaussians from any views. Previous straightforward solutions combine feed-forward reconstruction with Gaussian heads but suffer from fixed input views and insufficient 3D training data. In contrast, we propose a 3D-annotation-free training framework for 2D-to-3D lifting from arbitrary uncalibrated and unposed multi-view images. Since the framework does not require 3D annotations, we can leverage large-scale video data with easily obtained 2D instance information to enrich semantic embedding. We also propose an instance-guided contrastive learning to align 2D semantics with the 3D representations. In addition, to mitigate the high memory and computational cost of dense views, we further propose a geometry-semantic hierarchical sparsification strategy. Our FLEG efficiently reconstructs language-embedded 3D Gaussian representation in a feed-forward manner from arbitrary sparse or dense views, jointly producing accurate geometry, high-fidelity appearance, and language-aligned semantics. Extensive experiments show that it outperforms existing methods on various related tasks.
-              </div>
+                Recent advances in vision foundation models have revolutionized geometry reconstruction and semantic understanding. Yet, most of the existing approaches treat these capabilities in isolation, leading to redundant pipelines and compounded errors. This paper introduces FF3R, a fully self-supervised feed-forward framework that unifies geometric and semantic reasoning from unconstrained multi-view image sequences. 
+                Unlike previous methods, FF3R does not require camera poses, depth maps, or semantic labels, relying solely on rendering supervision for RGB and feature maps, establishing a scalable paradigm for unified 3D reasoning.
+                In addition, we address two critical challenges in feedforward feature reconstruction pipelines, namely global semantic inconsistency and local structural inconsistency, through two key innovations: (i) a Token-wise Fusion Module that enriches geometry tokens with semantic context via cross-attention, and (ii) a Semantic–Geometry Mutual Boosting mechanism combining geometry-guided feature warping for global consistency with semantic-aware voxelization for local coherence. Extensive experiments on ScanNet and DL3DV-10K demonstrate FF3R’s superior performance in novel-view synthesis, open-vocabulary semantic segmentation, and depth estimation, with strong generalization to in-the-wild scenarios, paving the way for embodied intelligence systems that demand both spatial and semantic understanding.
+                </div>
             </div>
           </div>
         </div>
@@ -208,13 +192,9 @@
               <!-- Interpolating. -->
                 <div class="content has-text-justified">
                 <p>
-                    Overview of FLEG. Our FLEG adopts a large transformer with a DPT-based decoder and corresponding prediction heads to predict language-embedded Gaussians. 
-                    We propose a 3D-annotation-free training framework to eliminate the reliance on 3D annotation. 
-                    To embed semantics into 3D representations, we construct InstanceMV-14K to enrich semantic diversity. 
-                    We also introduce an instance-guided contrastive learning to effectively align 2D instances with 3D representations. 
-                    We further propose a geometry-semantic hierarchical sparsification strategy to avoid the cost of per-pixel predictions.
+                    From unconstrained multi-view inputs, FF3R injects semantic-awareness into geometry tokens through Token-Wise Fusion, then decodes pixel-aligned features to predict feature-RGB GS, depth, and camera parameters. A Semantic–Geometry Mutual Boosting module, including Geometry-Guided Feature Warping, and Semantic-aware Voxelization, enables fully self-supervised training and yields high-quality novel view synthesis and open-vocabulary, 3D-consistent semantics.
                 </p>
-                <img src="./static/images/main.png" 
+                <img src="./static/images/method.png" 
                      class="interpolation-image" 
                      alt="Interpolate start reference image" 
                      style="width: 100%; height: auto; display: block; margin: 0 auto;">
@@ -232,22 +212,22 @@
             <!-- Interpolating. -->
             <div class="content has-text-justified">
               <p>
-                Comparsion with feed-forward methods: 
+                Language-based 3D Segmentation Comparison: 
               </p>
-              <img src="./static/images/vis.png" 
+              <img src="./static/images/seg_qualitive.png" 
                    class="interpolation-image" 
                    alt="Interpolate start reference image" 
-                   style="width: 80%; height: 100%; display: block; margin: 0 auto;">
+                   style="width: 100%; height: 100%; display: block; margin: 0 auto;">
               <p> 
                 <br>
               </p>
               <p>
-                Comparsion with per-scene optimized methods: 
+                Novel View Synthesis Comparison: 
               </p>
-              <img src="./static/images/vis_per.png" 
+              <img src="./static/images/nvs_qualitive.png" 
                    class="interpolation-image" 
                    alt="Interpolate start reference image" 
-                   style="width: 80%; height: 100%; display: block; margin: 0 auto;">
+                   style="width: 100%; height: 100%; display: block; margin: 0 auto;">
             </div>
           </div>
         </div>
@@ -257,14 +237,12 @@
     <section class="section" id="BibTeX">
         <div class="container is-max-desktop content">
           <h2 class="title">BibTeX</h2>
-          <pre><code>@misc{tian2025flegfeedforwardlanguageembedded,
-      title={FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views}, 
-      author={Qijian Tian and Xin Tan and Jiayu Ying and Xuhong Wang and Yuan Xie and Lizhuang Ma},
-      year={2025},
-      eprint={2512.17541},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.17541}, 
+          <pre><code>@inproceedings{zhou2026ff3r,
+      title={FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views}, 
+      author={Chaoyi Zhou and Run Wang and Feng Luo and Mert D. Pesé and Zhiwen Fan and Yiqi Zhong and Siyu Huang},
+      booktitle ={CVPR Findings},
+      year={2026},
+
 }</code></pre>
         </div>
     </section>
@@ -273,10 +251,10 @@
         <div class="container">
           <div class="content has-text-centered">
             <a class="icon-link"
-               href="https://arxiv.org/abs/2512.17541">
+               href="">
               <i class="fas fa-file-pdf"></i>
             </a>
-            <a class="icon-link" href="https://github.com/fangzhou2000" class="external-link" disabled>
+            <a class="icon-link" href="" class="external-link" disabled>
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -299,3 +277,4 @@
 
 </body>
 </html>
+
