@@ -174,7 +174,7 @@
             <div class="column is-four-fifths">
               <h2 class="title is-3">Abstract</h2>
               <div class="content has-text-justified">
-                Recent advances in vision foundation models have revolutionized geometry reconstruction and semantic understanding. Yet, most of the existing approaches treat these capabilities in isolation, leading to redundant pipelines and compounded errors. This paper introduces FF3R, a fully self-supervised feed-forward framework that unifies geometric and semantic reasoning from unconstrained multi-view image sequences. 
+                Recent advances in vision foundation models have revolutionized geometry reconstruction and semantic understanding. Yet, most of the existing approaches treat these capabilities in isolation, leading to redundant pipelines and compounded errors. This paper introduces FF3R, a fully annotation-free feed-forward framework that unifies geometric and semantic reasoning from unconstrained multi-view image sequences. 
                 Unlike previous methods, FF3R does not require camera poses, depth maps, or semantic labels, relying solely on rendering supervision for RGB and feature maps, establishing a scalable paradigm for unified 3D reasoning.
                 In addition, we address two critical challenges in feedforward feature reconstruction pipelines, namely global semantic inconsistency and local structural inconsistency, through two key innovations: (i) a Token-wise Fusion Module that enriches geometry tokens with semantic context via cross-attention, and (ii) a Semantic–Geometry Mutual Boosting mechanism combining geometry-guided feature warping for global consistency with semantic-aware voxelization for local coherence. Extensive experiments on ScanNet and DL3DV-10K demonstrate FF3R’s superior performance in novel-view synthesis, open-vocabulary semantic segmentation, and depth estimation, with strong generalization to in-the-wild scenarios, paving the way for embodied intelligence systems that demand both spatial and semantic understanding.
                 </div>
@@ -192,7 +192,7 @@
               <!-- Interpolating. -->
                 <div class="content has-text-justified">
                 <p>
-                    From unconstrained multi-view inputs, FF3R injects semantic-awareness into geometry tokens through Token-Wise Fusion, then decodes pixel-aligned features to predict feature-RGB GS, depth, and camera parameters. A Semantic–Geometry Mutual Boosting module, including Geometry-Guided Feature Warping, and Semantic-aware Voxelization, enables fully self-supervised training and yields high-quality novel view synthesis and open-vocabulary, 3D-consistent semantics.
+                    From unconstrained multi-view inputs, FF3R injects semantic-awareness into geometry tokens through Token-Wise Fusion, then decodes pixel-aligned features to predict feature-RGB GS, depth, and camera parameters. A Semantic–Geometry Mutual Boosting module, including Geometry-Guided Feature Warping, and Semantic-aware Voxelization, enables fully annotation-free training and yields high-quality novel view synthesis and open-vocabulary, 3D-consistent semantics.
                 </p>
                 <img src="./static/images/method.png" 
                      class="interpolation-image" 
